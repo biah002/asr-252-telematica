@@ -5,8 +5,8 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: programadoraborodo
       MYSQL_DATABASE: meubanco
-      MYSQL_USER: usuario
-      MYSQL_PASSWORD: senha123
+      MYSQL_USER: bia
+      MYSQL_PASSWORD: 1234
     volumes:
       - mysql-data:/var/lib/mysql
     ports:
